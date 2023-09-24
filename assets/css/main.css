@@ -146,48 +146,16 @@ main .intro .intro__title {
     font-size: 2rem; 
 }
 
-main .search-container {
-    /* background: yellow;  */
-    background: white; 
-    padding: .5rem 1rem; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 95%;
-    width: 500px;
+main .cta {
+    display: flex; 
+    column-gap: 1rem ;
 }
 
-main .search_input__wrapper {
-    position: relative;
-    width: 100%;
+main .cta a {
+    padding: .5rem 1em; 
+    background: var(--light-text-color); 
+    color: var(--primary-color);
 }
-
-
-main form {
-    flex:1;
-}
-
-main .search_input__wrapper input {
-    border: none; 
-    outline: none;
-    width: 100%;
-}
-
-main .search_input__wrapper i {
-    color: black; 
-    width: fit-content;
-}
-
-main .search_input__wrapper button {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 50%; 
-    transform: translateY(-50%); 
-    left: 0;
-}
-
-
 
 /* property type section */
 
