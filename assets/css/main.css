@@ -433,6 +433,9 @@ footer .copyrights {
     .container {
         width: 1200px;
     }
+    .property_list .item {
+        width: 1000px;
+    }
 }
 
 @media (min-width: 1400px) {
